@@ -1,5 +1,5 @@
 # clickTracker
-Simple click/impression tracker MVP
+Simple click/impression tracker MVP obviously a WIP
 
 Accepts the following over HTTP:<br>
   POST /analytics?timestamp={millis_since_epoch}&user={user_id}&event={click|impression}<br>
@@ -14,4 +14,4 @@ clicks,{number_of_clicks}<br>
 impressions,{number_of_impressions}<br>
 
 TODO: 
-Figure out GET
+Figure out GET path
